@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Anh Tu Le"
   avatar           : "assets/images/ic_author.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an Working Programmer"
+  bio              : "Working Programmer"
   location         : "Ho Chi Minh - VN"
   email            :
   links:
