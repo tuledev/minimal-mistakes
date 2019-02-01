@@ -108,14 +108,14 @@ analytics:
 author:
   name             : "Anh Tu Le"
   avatar           : "assets/images/ic_author.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an developer"
-  location         : "Ho Chi Minh - Viet Nam"
+  bio              : "I am an Working Programmer"
+  location         : "Ho Chi Minh - VN"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:tule.developer@gmail.com
-    - label: "Stackoverflow"
+    - label: "Stack Overflow"
       icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/5210045/tuledev"
     - label: "GitHub"
