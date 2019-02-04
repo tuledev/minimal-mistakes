@@ -121,6 +121,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tuledev"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@tule.developer"
 
 # Site Footer
 footer:
@@ -128,12 +131,15 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:tule.developer@gmail.com
-    - label: "Stackoverflow"
+    - label: "Stack Overflow"
       icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/5210045/tuledev"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tuledev"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@tule.developer"
 
 
 # Reading Files
