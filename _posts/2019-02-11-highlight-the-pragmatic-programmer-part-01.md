@@ -1,5 +1,5 @@
 ---
-title: "Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 2"
+title: "Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 1"
 categories:
   - Books
 tags:
