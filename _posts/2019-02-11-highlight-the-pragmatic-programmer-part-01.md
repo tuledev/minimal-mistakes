@@ -111,4 +111,4 @@ If you want people to listen to you, listen to them.
 #### Get back to people
 Always respond to e-mails and voice mails, even if the response is simply
 
-*Part 2 - Comming soon*
+[Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 2](https://tuledev.github.io/books/highlight-the-pragmatic-programmer-part-02/)
