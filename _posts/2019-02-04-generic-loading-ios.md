@@ -5,7 +5,6 @@ categories:
 tags:
   - iOS
   - Swift
-  - 02-2019
 ---
 
 As iOS developers, we already know the basic load/instantiate an `UIViewController` from Storyboard is

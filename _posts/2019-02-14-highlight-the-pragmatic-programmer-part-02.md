@@ -5,7 +5,6 @@ categories:
 tags:
   - Books 
   - The Pragmatic Programmer
-  - 02-2019
 ---
 
 *This is a highlight and summary content for my favorite parts*
