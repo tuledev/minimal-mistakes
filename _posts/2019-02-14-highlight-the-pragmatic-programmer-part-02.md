@@ -124,6 +124,11 @@ Once you think you know what is going on, it's time to find out what the program
 - Rubber ducking: explain it to someone else
 - Process of elimination: **SELECT isn't broken**
 
-[Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 1](https://tuledev.github.io/books/highlight-the-pragmatic-programmer-part-01/)
+<br>
 
-*Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 3*
+---
+<br>
+
+* [Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 1](https://tuledev.github.io/books/highlight-the-pragmatic-programmer-part-01/)
+
+* *Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 3*
