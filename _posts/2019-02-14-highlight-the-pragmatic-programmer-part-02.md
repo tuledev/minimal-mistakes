@@ -130,4 +130,4 @@ Once you think you know what is going on, it's time to find out what the program
 
 * [Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 1](https://tuledev.github.io/books/highlight-the-pragmatic-programmer-part-01/)
 
-* *Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 3*
+* [Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 3](https://tuledev.github.io/books/highlight-the-pragmatic-programmer-part-03/)

@@ -117,4 +117,4 @@ Always respond to e-mails and voice mails, even if the response is simply
 
 * [Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 2](https://tuledev.github.io/books/highlight-the-pragmatic-programmer-part-02/)
 
-* *Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 3*
+* [Highlights for The Pragmatic Programmer-by Andrew Hunt, David Thomas - Part 3](https://tuledev.github.io/books/highlight-the-pragmatic-programmer-part-03/)
