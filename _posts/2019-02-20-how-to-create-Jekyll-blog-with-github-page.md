@@ -69,18 +69,51 @@ author:
 
 With `# Site Author`, you can custom footer link items.
 
-### Tags, Categories
-
-Because Github Pages work with Liquid, you just need to copy [tag-archive](https://github.com/tuledev/tuledev.github.io/blob/master/tag-archive.md), [category-archive](https://github.com/tuledev/tuledev.github.io/blob/master/category-archive.md) and paste them to the root folder.
-
 ### Posts
 
 You can write posts with Markdown format, and then commit/push them to master branch. 
 For more format details, you can read here [Woking with posts](https://mmistakes.github.io/minimal-mistakes/docs/posts/#) 
 
+### Tags, Categories
+
+Because Github Pages work with Liquid, you just need to copy [tag-archive](https://github.com/tuledev/tuledev.github.io/blob/master/tag-archive.md), [category-archive](https://github.com/tuledev/tuledev.github.io/blob/master/category-archive.md) and paste them to the root folder.
+
+### Comment plugin
+
+Custom comment plugin in `_config.yml` also.
+Enable in 
+
+```
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true // here
+      share: true
+      related: true
+```
+
+Custom facebook **appid** from facebook comment plugin in. For creating facebook appid, you can read more here [Facebook](https://developers.facebook.com/docs/apps/)
+
+```
+comments:
+  provider               : "facebook"
+  facebook:
+    appid                : "APP_ID"
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+
+ ```
+
 <br/>
 
-*Source for this blog you can find in my [repo](https://github.com/tuledev/tuledev.github.io)*
+*Source for this blog you can find at my [repo](https://github.com/tuledev/tuledev.github.io)*
 
 
 
