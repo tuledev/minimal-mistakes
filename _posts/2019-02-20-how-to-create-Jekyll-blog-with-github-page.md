@@ -1,5 +1,5 @@
 ---
-title: "Easily create a blog with Jekyll and Github Pages"
+title: "A fast way to create a blog with Jekyll and Github Pages"
 categories:
   - Jekyll
 tags:
@@ -8,7 +8,7 @@ tags:
   - Github Pages
 ---
 
-*In this post, I will explain step-by-step how I create this simple blog in a very short time*
+*In this post, I will explain step-by-step how I created this simple blog in a short time*
 
 **Many thanks to [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)**
 
@@ -18,21 +18,21 @@ My blog's using
 - [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme base on Jekyll
 - Markdown format for posts
 
-My blog's features:
+My blog features:
 - Writing posts with markdown format
 - Tags, categoris
 - Comment
 - Share
 
-There are many ways to use Jekyll, I chose Minimal Mistakes and Github Pages because it's the simplest that I can find.
+There are many ways to use Jekyll, I chose Minimal Mistakes and Github Pages because it's the simplest way I can find.
 
-### How to fork Minimal-mistakes theme and host blog in Github Pages
+### How to fork Minimal Mistakes theme and host blog in Github Pages
 
-There are 3 ways to [install](https://github.com/mmistakes/minimal-mistakes#installation) theme. I chose forking the repo so it's easy to use with Github Pages
+There are 3 ways to [install](https://github.com/mmistakes/minimal-mistakes#installation) Jekyll themes. I chose forking the repo so it's easy to use with Github Pages
 
 1. Fork [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) repo
 2. Change the forked repo name to your github usename `{username}.github.io`
-3. Done. You have a blog at `https://{username}.github.io` (For the first time, the blog will be available in few minutes)
+3. DONE. You have a blog at `https://{username}.github.io` (For the first time, the blog will be available in a few minutes)
 
 You have a blog with inititial data now. Look at [quick-start-guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#), you can custom many things with less effort.
 
@@ -113,7 +113,7 @@ comments:
 
 <br/>
 
-*Source for this blog you can find at my [repo](https://github.com/tuledev/tuledev.github.io)*
+*All the sources for this blog, you can find at my [repo](https://github.com/tuledev/tuledev.github.io)*
 
 
 
