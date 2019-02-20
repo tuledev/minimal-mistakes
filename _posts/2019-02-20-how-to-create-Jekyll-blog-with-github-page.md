@@ -32,7 +32,7 @@ There are 3 ways to [install](https://github.com/mmistakes/minimal-mistakes#inst
 
 1. Fork [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) repo
 2. Change the forked repo name to your github usename `{username}.github.io`
-3. Done. You have a blog at `http://{username}.github.io` (For the first time, the blog will be available in few minutes)
+3. Done. You have a blog at `https://{username}.github.io` (For the first time, the blog will be available in few minutes)
 
 You have a blog with inititial data now. Look at [quick-start-guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#), you can custom many things with less effort.
 
