@@ -32,13 +32,11 @@ There are 3 ways to [install](https://github.com/mmistakes/minimal-mistakes#inst
 
 1. Fork [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) repo
 2. Change the forked repo name to your github usename `{username}.github.io`
-3. Done. You have a blog at `http://{username}.github.io`
+3. Done. You have a blog at `http://{username}.github.io` (For the first time, the blog will be available in few minutes)
 
 You have a blog with inititial data now. Look at [quick-start-guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#), you can custom many things with less effort.
 
-### What I have customed 
-
-#### Site settings section
+### Site settings section
 
 With `# Site Settings` section in `_config.yml`, you can update:
 ```
@@ -50,7 +48,8 @@ description              : "A personal blog."
 masthead_title           : "Play With Me"
 ```
 
-#### Author section
+### Author section
+
 With `# Site Settings` section in `_config.yml`, you can update:
 ```
 # Site Author
@@ -66,11 +65,22 @@ author:
       url: mailto:tule.developer@gmail.com
 ```
 
-#### Footer section
+### Footer section
+
 With `# Site Author`, you can custom footer link items.
 
-#### Tags, Categories
-Because Github Pages work with Liquid, you just need to copy [tag-archive], [category-archive](https://github.com/tuledev/tuledev.github.io/blob/master/category-archive.md)
+### Tags, Categories
+
+Because Github Pages work with Liquid, you just need to copy [tag-archive](https://github.com/tuledev/tuledev.github.io/blob/master/tag-archive.md), [category-archive](https://github.com/tuledev/tuledev.github.io/blob/master/category-archive.md) and paste them to the root folder.
+
+### Posts
+
+You can write posts with Markdown format, and then commit/push them to master branch. 
+For more format details, you can read here [Woking with posts](https://mmistakes.github.io/minimal-mistakes/docs/posts/#) 
+
+<br/>
+
+*Source for this blog you can find in my [repo](https://github.com/tuledev/tuledev.github.io)*
 
 
 
