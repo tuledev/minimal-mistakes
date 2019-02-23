@@ -196,7 +196,7 @@ I think the code is good now:
 - We can easy understand the flow line by line: validateUsername -> showLoading -> uploadImages -> updateUserInfo -> showSuccessAlert
 - Errors are handled in one place `handleError`.
 
-From now, I always try to use `try-catch-finally` first as this scenario.
+From now, I always try to use `try-catch-finally` first for cases as this scenario.
 
 More detail about [try-catch](https://javascript.info/try-catch)
 
