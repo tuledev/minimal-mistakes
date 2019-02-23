@@ -21,7 +21,7 @@ Let's consider a scenario: a program has an user's information screen with **use
 
 In the past, I will code like this, just focus on `validateUsername` and `onUpdateButtonPressed` function:
 
-```
+```javascript
   const MIN_USERNAME_LENGTH = 6;
   const ERROR_TYPE = {
     NONE: 'NONE',
@@ -142,7 +142,7 @@ It's not bad at all. But imagine, if we have more error codes and chaining promi
 
 So let's refactor `onUpdateButtonPressed` with `try-catch` and `async/await`
 
-```
+```javascript
   function validateUsername(username) {
     if (!username) { 
       throw ERROR_TYPE.NULL_USERNAME;

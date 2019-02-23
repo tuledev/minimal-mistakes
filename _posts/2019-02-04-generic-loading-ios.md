@@ -9,13 +9,14 @@ tags:
 
 As iOS developers, we already know the basic load/instantiate an `UIViewController` from Storyboard is
 
-```
+```swift
 let storyboard = UIStoryboard(name: "Main", bundle: nil)
 let loginViewController = storyboard.instantiateViewController(withIdentifier: "Login") as? LoginViewController
 ```
 
 or `UIView` from Xib
-```
+
+```swift
 let view = Bundle.main.loadNibNamed("WelcomeView", owner: nil, options: nil)?.first
 ```
 
