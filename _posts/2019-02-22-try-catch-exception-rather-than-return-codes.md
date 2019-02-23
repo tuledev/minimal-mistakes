@@ -19,7 +19,7 @@ Let's consider a scenario: a program has an user's information screen with **use
  5. Show Success alert, hide loading animation, .
  6. Hide loading animation if fail at any point.
 
-In the past, I will go with these codes (just focus on `validateUsername` and `onUpdateButtonPressed` function):
+Go with these codes (just focus on `validateUsername` and `onUpdateButtonPressed` function):
 
 ```javascript
   const MIN_USERNAME_LENGTH = 6;
