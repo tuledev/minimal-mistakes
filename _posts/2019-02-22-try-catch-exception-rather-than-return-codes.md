@@ -138,7 +138,7 @@ We can smell something in the `onUpdateButtonPressed` function:
 - a little complex show/hide loading flow
 - hard to figure out the updating flow
 
-It's not bad at all. But imagine, if we have more error codes and chaining Promises, the code will be massive and hard to maintain in the future.
+It's not bad at all. But imagine, if we have more error codes and chaining Promises, the code will be massive and hard to be maintained.
 
 So let's refactor `onUpdateButtonPressed` with `try-catch` and `async/await`
 
