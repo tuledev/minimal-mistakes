@@ -1,5 +1,5 @@
 ---
-title: "Use try-catch exception rather than return codes, and async/await rather than then/catch for promise in JavaScript"
+title: "Use try-catch exception rather than return codes, and async/await rather than then/catch for Promises in JavaScript"
 categories:
   - JavaScript
 tags:
@@ -134,11 +134,11 @@ In the past, I will code like this, just focus on `validateUsername` and `onUpda
 
 We can smell something in the `onUpdateButtonPressed` function:
 - 2 `return` lines(better than nested if)
-- chaining promises(better than nested promises)
+- chaining Promises(better than nested Promises)
 - a little complex show/hide loading flow
 - hard to figure out the updating flow
 
-It's not bad at all. But imagine, if we have more error codes and chaining promises, the code will be massive and hard to maintain in the future.
+It's not bad at all. But imagine, if we have more error codes and chaining Promises, the code will be massive and hard to maintain in the future.
 
 So let's refactor `onUpdateButtonPressed` with `try-catch` and `async/await`
 
@@ -190,7 +190,7 @@ So let's refactor `onUpdateButtonPressed` with `try-catch` and `async/await`
 
 What I did:
 - In `validateUsername`, instead of return error codes, `throw` them.
-- In `onUpdateButtonPressed`, instead of using `then/catch` with promises, using `try-catch` and `async/await`.
+- In `onUpdateButtonPressed`, instead of using `then/catch` with Promises, using `try-catch` and `async/await`.
 
 I think the code is good now:
 - We can easy understand the flow line by line: validateUsername -> showLoading -> uploadImages -> updateUserInfo -> showSuccessAlert
