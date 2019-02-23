@@ -32,8 +32,8 @@ In the past, I will code like this, just focus on `validateUsername` and `onUpda
   }
 
   const SUCCESSFUL_UPDATED = 'Niceeee!';
-  const NULL_USERNAME = 'Username can't be null';
-  const SHORT_USERNAME = 'You're too short!';
+  const NULL_USERNAME = 'Username can not be null';
+  const SHORT_USERNAME = 'You are too short!';
   const FAIL_UPLOAD_AVATAR = 'Uploading avartar failed';
   const FAIL_UPDATE_INFO = 'Updating info failed';
 
