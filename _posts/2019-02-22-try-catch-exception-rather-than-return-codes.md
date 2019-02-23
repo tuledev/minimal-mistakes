@@ -154,7 +154,7 @@ So let's refactor `onUpdateButtonPressed` with `try-catch` and `async/await`
 
   async function onUpdateButtonPressed(username, avatarPath) {
     try {
-      await validateUsername(username);
+      validateUsername(username);
       showLoading();
       const avatarUrl = await uploadImages(avatarPath);
       await updateUserInfo(username, avatarUrl);
