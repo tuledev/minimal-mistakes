@@ -1,5 +1,5 @@
 ---
-title: "Use try-catch exception rather than return codes, and async/await rather than then/catch promise in JavaScript"
+title: "Use try-catch exception rather than return codes, and async/await rather than then/catch for promise in JavaScript"
 categories:
   - JavaScript
 tags:
