@@ -268,4 +268,37 @@
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
+
+  <div class="newsletter-container" style="
+    max-width: 200px;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    background: #444;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+  ">
+    <form style="padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=TuledevBlog', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+      <p class="newsletter-text" style="
+      font-weight: 400;
+      color: #fff;
+      text-align: center;
+      ">New posts to your inbox</p>
+      <p><input type="text" style="display: inline-block;
+        padding: 4px;
+        width: 150px;
+        align-self: center;" name="email" placeholder="example@mail.com" /></p>
+      <input type="hidden" value="TuledevBlog" name="uri" />
+      <input type="hidden" name="loc" value="en_US" />
+      <input type="submit" style="
+      display: inline-block;
+      border-radius: 2px;
+      padding: 8px;
+      align-self: center;" value="Subscribe" />
+    </form>
+  </div>
+  
 </div>
