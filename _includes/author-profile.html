@@ -274,22 +274,26 @@
     border-radius: 1em;
     display: flex;
     flex-direction: column;
-    background: #444;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
-    margin-top: 32px;
+    background: #fff;
+    margin-top: 16px;
+    margin-right: 4px;
+    border: 1px solid #ccc;
   ">
     <form style="padding:3px;text-align:center;background-color:#0000" action="https://feedburner.google.com/fb/a/mailverify" method="post"
       target="popupwindow"
       onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=TuledevBlog', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
       <p class="newsletter-text" style="
       font-weight: 400;
-      color: #fff;
+      color: #666;
       text-align: center;
       ">New posts to your inbox</p>
-      <p><input type="text" style="display: inline-block;
+      <p style="margin: 8px;"><input type="text" style="display: inline-block;
         padding: 4px;
         width: 150px;
-        align-self: center;" name="email" placeholder="example@mail.com" /></p>
+        align-self: center;
+        border: 1px solid #cccc;
+        box-shadow: 0 1px 1px rgba(0,0,0,0);
+        " name="email" placeholder="example@mail.com" /></p>
       <input type="hidden" value="TuledevBlog" name="uri" />
       <input type="hidden" name="loc" value="en_US" />
       <input type="submit" style="
@@ -297,6 +301,7 @@
       border-radius: 2px;
       padding: 8px;
       font-size: 13px;
+      color: #666;
       align-self: center;" value="Subscribe" />
     </form>
   </div>
