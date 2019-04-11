@@ -6,6 +6,7 @@ tags:
   - JavaScript
   - try-catch
   - async/await
+  - error-handling
 ---
 
 In a few weeks ago, I rarely used `try-catch`. But after I read [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) again, I realised something and used try-catch more frequently.
