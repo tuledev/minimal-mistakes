@@ -4,7 +4,6 @@ categories:
   - Logger
   - Swift
 tags:
-  - JavaScript
   - Swift
   - Telegram
 ---
@@ -36,31 +35,31 @@ How to get statuses of the running job or anything that you want to tracking? Ho
   `-123456789` is the ID of the group.
 
 ### Send message to Telegram group
-  After getting the BOT_TOKEN and GROUP_ID, it's so easy to send message to the group via API
+  - After getting the BOT_TOKEN and GROUP_ID, it's so easy to send message to the group via API
 
-  `https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=<GROUP_ID>&text=<MESSAGE_TEXT>`
+    `https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=<GROUP_ID>&text=<MESSAGE_TEXT>`
 
-  Example with curl:
+    Example with curl:
   
-  `curl -s -X POST https://api.telegram.org/bot[BOT_TOKEN]/sendMessage -d chat_id=-123456789 -d text="Hello Bot"`
+    `curl -s -X POST https://api.telegram.org/bot[BOT_TOKEN]/sendMessage -d chat_id=-123456789 -d text="Hello Bot"`
 
-  Example with Swift:
+    Example with Swift:
 
-  ```swift
-  func sendTelegram(_ message: String) {
-  Alamofire.request("https://api.telegram.org/bot\(BOT_TOKEN)/sendMessage",
-    method: .post,
-    parameters: ["chat_id": CHAT_ID, "text": message],
-    headers:nil)
-  }
-  sendTelegram("Hello Bot")
-  ```
+    ```swift
+    func sendTelegram(_ message: String) {
+      Alamofire.request("https://api.telegram.org/bot\(BOT_TOKEN)/sendMessage",
+        method: .post,
+        parameters: ["chat_id": CHAT_ID, "text": message],
+        headers:nil)
+    }
+    sendTelegram("Hello Bot")
+    ```
 
-Pros: 
+### Pros: 
 - Real-time like
 - Very easy to setup
 - Free
 
-Cons:
+### Cons:
 - Have limits. [How to avoid hitting limits?](https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
 
