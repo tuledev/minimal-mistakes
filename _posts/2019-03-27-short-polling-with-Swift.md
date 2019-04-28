@@ -2,6 +2,7 @@
 title: "Short-polling with Swift"
 categories:
   - iOS
+  - Swift
 tags:
   - iOS
   - Swift
@@ -33,7 +34,7 @@ What I will implement
 
 
 ## 1. Protocol for Pollingable item
-``` Swift
+```swift
 protocol Pollingable {
   // default uid for polling
   func uid() -> String
@@ -57,7 +58,7 @@ extension Pollingable where Self: NSObject {
 ## 2. Polling Center
 
 #### Singleton center
-``` Swift
+```swift
   private static var sharedInstance: PollingCenter = {
     let pollingCenter = PollingCenter()
     return pollingCenter
@@ -74,7 +75,7 @@ extension Pollingable where Self: NSObject {
 ```
 
 #### Timer for each Pollingable item
-``` Swift
+```swift
   private func createTimer(polling: Pollingable) -> DispatchSourceTimer {
     let queue = DispatchQueue.global(qos: .background)
     let timer = DispatchSource.makeTimerSource(queue: queue)
@@ -89,7 +90,7 @@ extension Pollingable where Self: NSObject {
 I've almost done for creating center. Now I will add polling items and let them running in queue.
 
 #### Resume/Pause Pollingable items via polling uid
-``` Swift
+```swift
   fileprivate func resumePolling(_ uid: String) {
     if let polling = self.pollings[uid], let state = self.pollingStates[uid] {
       if state == false {
@@ -113,7 +114,7 @@ I make them private because they have to be executed in a queue, so they won't b
 
 
 #### Add Pollingable item to Polling Center
-``` Swift
+```swift
   func addPolling(_ polling: Pollingable) {
     // check if uid is added
     if pollings.index(forKey: polling.uid()) == nil {
@@ -126,7 +127,7 @@ I make them private because they have to be executed in a queue, so they won't b
 ```
 
 #### Enable/Disable Pollingable item
-``` Swift
+```swift
   func enablePolling(_ uid: String) {
     self.serialQueueChanging.sync {
       self.resumePolling(uid)
@@ -143,7 +144,7 @@ Excute resume/pause Polling item in the queue so they won't be conficted.
 
 Done. Now I can use this simple center:
 
-``` Swift
+```swift
 let pollingCenter = PollingCenter()
 let printPolling = PrintPolling() // Pollingable item
 pollingCenter.addPolling(printPolling)
