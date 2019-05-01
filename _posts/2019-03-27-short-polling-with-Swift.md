@@ -145,7 +145,7 @@ Excute resume/pause Polling item in the queue so they won't be conficted.
 Done. Now I can use this simple center:
 
 ```swift
-let pollingCenter = PollingCenter()
+let pollingCenter = PollingCenter.sharedInstance()
 let printPolling = PrintPolling() // Pollingable item
 pollingCenter.addPolling(printPolling)
 pollingCenter.enablePolling(printPolling.uid()) // item's running now
