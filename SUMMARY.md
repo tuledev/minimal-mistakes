@@ -16,4 +16,5 @@
 * [\_docs](_docs/README.md)
   * [react\_native](_docs/react_native/README.md)
     * [Hotkeys](_docs/react_native/hotkeys.md)
+* [category-archive](category-archive.md)
 
