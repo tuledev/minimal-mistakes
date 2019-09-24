@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Minimal Mistakes Jekyll theme](README.md)
+* [DOCS FOR THINGS](README.md)
 * [\_posts](_posts/README.md)
   * [2019-02-20-how-to-create-Jekyll-blog-with-github-page](_posts/2019-02-20-how-to-create-jekyll-blog-with-github-page.md)
   * [2019-03-01-books-02-19](_posts/2019-03-01-books-02-19.md)
