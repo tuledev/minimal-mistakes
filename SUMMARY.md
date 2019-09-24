@@ -16,6 +16,9 @@
 * [\_docs](_docs/README.md)
   * [react\_native](_docs/react_native/README.md)
     * [Hotkeys](_docs/react_native/hotkeys.md)
+    * [Deep Links](_docs/react_native/deep-links/README.md)
+      * [iOS Deep Link: Universal Link vs URL Schemes‌](_docs/react_native/deep-links/ios-deep-link-universal-link-vs-url-schemes.md)
+      * [Deferred Link‌](_docs/react_native/deep-links/deferred-link.md)
 * [category-archive](category-archive.md)
 * [tag-archive](tag-archive.md)
 
