@@ -1,45 +1,49 @@
 ---
-title: "A fast way to create a blog with Jekyll and Github Pages"
+title: A fast way to create a blog with Jekyll and Github Pages
 categories:
   - Jekyll
 tags:
-  - Jekyll 
+  - Jekyll
   - Minimal Mistakes
   - Github Pages
 ---
 
-*In this post, I will explain step-by-step how I created this simple blog in a short time*
+# 2019-02-20-how-to-create-Jekyll-blog-with-github-page
 
-**Many thanks to [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)**
+_In this post, I will explain step-by-step how I created this simple blog in a short time_
+
+**Many thanks to** [**Minimal Mistakes**](https://github.com/mmistakes/minimal-mistakes)
 
 My blog's using
 
-- Github Pages
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme base on Jekyll
-- Markdown format for posts
+* Github Pages
+* [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme base on Jekyll
+* Markdown format for posts
 
 My blog features:
-- Writing posts with markdown format
-- Tags, categoris
-- Comment
-- Share
+
+* Writing posts with markdown format
+* Tags, categoris
+* Comment
+* Share
 
 There are many ways to use Jekyll, I chose Minimal Mistakes and Github Pages because it's the simplest way I can find.
 
-### How to fork Minimal Mistakes theme and host blog in Github Pages
+## How to fork Minimal Mistakes theme and host blog in Github Pages
 
 There are 3 ways to [install](https://github.com/mmistakes/minimal-mistakes#installation) Jekyll themes. I chose forking the repo so it's easy to use with Github Pages
 
 1. Fork [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) repo
 2. Change the forked repo name to your github usename `{username}.github.io`
-3. DONE. You have a blog at `https://{username}.github.io` (For the first time, the blog will be available in a few minutes)
+3. DONE. You have a blog at `https://{username}.github.io` \(For the first time, the blog will be available in a few minutes\)
 
 You have a blog with inititial data now. Look at [quick-start-guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#), you can custom many things with less effort.
 
-### Site settings section
+## Site settings section
 
 With `# Site Settings` section in `_config.yml`, you can update:
-```
+
+```text
 # Site Settings
 title                    : "tuledev Blog"
 title_separator          : "-"
@@ -48,10 +52,11 @@ description              : "A personal blog."
 masthead_title           : "Play With Me"
 ```
 
-### Author section
+## Author section
 
 With `# Site Settings` section in `_config.yml`, you can update:
-```
+
+```text
 # Site Author
 author:
   name             : "Anh Tu Le"
@@ -65,25 +70,23 @@ author:
       url: mailto:tule.developer@gmail.com
 ```
 
-### Footer section
+## Footer section
 
 With `# Site Author`, you can custom footer link items.
 
-### Posts
+## Posts
 
-You can write posts with Markdown format, and then commit/push them to master branch. 
-For more format details, you can read here [Woking with posts](https://mmistakes.github.io/minimal-mistakes/docs/posts/#) 
+You can write posts with Markdown format, and then commit/push them to master branch. For more format details, you can read here [Woking with posts](https://mmistakes.github.io/minimal-mistakes/docs/posts/#)
 
-### Tags, Categories
+## Tags, Categories
 
 Because Github Pages work with Liquid, you just need to copy [tag-archive](https://github.com/tuledev/tuledev.github.io/blob/master/tag-archive.md), [category-archive](https://github.com/tuledev/tuledev.github.io/blob/master/category-archive.md) and paste them to the root folder.
 
-### Comment plugin
+## Comment plugin
 
-Custom comment plugin in `_config.yml` also.
-Enable in 
+Custom comment plugin in `_config.yml` also. Enable in
 
-```
+```text
 # Defaults
 defaults:
   # _posts
@@ -101,21 +104,14 @@ defaults:
 
 Custom facebook **appid** from facebook comment plugin in. For creating facebook appid, you can read more here [Facebook](https://developers.facebook.com/docs/apps/)
 
-```
+```text
 comments:
   provider               : "facebook"
   facebook:
     appid                : "APP_ID"
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+```
 
- ```
-
-<br/>
-
-*All the sources for this blog, you can find at my [repo](https://github.com/tuledev/tuledev.github.io)*
-
-
-
-
+_All the sources for this blog, you can find at my_ [_repo_](https://github.com/tuledev/tuledev.github.io)
 

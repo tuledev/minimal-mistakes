@@ -1,5 +1,7 @@
 ---
-title: "Use try-catch exception rather than return codes, and async/await rather than then/catch for Promises in JavaScript"
+title: >-
+  Use try-catch exception rather than return codes, and async/await rather than
+  then/catch for Promises in JavaScript
 categories:
   - JavaScript
 tags:
@@ -9,18 +11,20 @@ tags:
   - error-handling
 ---
 
+# 2019-02-22-try-catch-exception-rather-than-return-codes
+
 In a few weeks ago, I rarely used `try-catch`. But after I read [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) again, I realised something and used try-catch more frequently.
 
-Let's consider a scenario: a program has an user's information screen with **usename**, **avatar** field. After user changed [username, avatar], then press **UPDATE** button. The program will do: 
+Let's consider a scenario: a program has an user's information screen with **usename**, **avatar** field. After user changed \[username, avatar\], then press **UPDATE** button. The program will do:
 
- 1. Validate username (longer than 5 characters).
- 2. Show loading animation 
- 3. Upload avatar to an image server.
- 4. Update user's info: username, avatar.
- 5. Show Success alert, hide loading animation, .
- 6. Hide loading animation if fail at any point.
+1. Validate username \(longer than 5 characters\).
+2. Show loading animation 
+3. Upload avatar to an image server.
+4. Update user's info: username, avatar.
+5. Show Success alert, hide loading animation, .
+6. Hide loading animation if fail at any point.
 
-Go with these codes (just focus on `validateUsername` and `onUpdateButtonPressed` function):
+Go with these codes \(just focus on `validateUsername` and `onUpdateButtonPressed` function\):
 
 ```javascript
   const MIN_USERNAME_LENGTH = 6;
@@ -130,14 +134,14 @@ Go with these codes (just focus on `validateUsername` and `onUpdateButtonPressed
         }
       });
   }
-
 ```
 
 We can smell something in the `onUpdateButtonPressed` function:
-- 2 `return` lines(better than nested if)
-- chaining Promises(better than nested Promises)
-- a little complex show/hide loading flow
-- hard to figure out the updating flow
+
+* 2 `return` lines\(better than nested if\)
+* chaining Promises\(better than nested Promises\)
+* a little complex show/hide loading flow
+* hard to figure out the updating flow
 
 It's not bad at all. But imagine, if we have more error codes and chaining Promises, the code will be massive and hard to be maintained.
 
@@ -190,18 +194,18 @@ So let's refactor `onUpdateButtonPressed` with `try-catch` and `async/await`
 ```
 
 What I did:
-- In `validateUsername`, instead of return error codes, `throw` them.
-- In `onUpdateButtonPressed`, instead of using `then/catch` with Promises, using `try-catch` and `async/await`.
+
+* In `validateUsername`, instead of return error codes, `throw` them.
+* In `onUpdateButtonPressed`, instead of using `then/catch` with Promises, using `try-catch` and `async/await`.
 
 I think the code is good now:
-- We can easy understand the flow line by line: validateUsername -> showLoading -> uploadImages -> updateUserInfo -> showSuccessAlert
-- Errors are handled in one place `handleError`.
+
+* We can easy understand the flow line by line: validateUsername -&gt; showLoading -&gt; uploadImages -&gt; updateUserInfo -&gt; showSuccessAlert
+* Errors are handled in one place `handleError`.
 
 From now, I always try to use `try-catch-finally` first for cases as this scenario.
 
 More detail about [try-catch](https://javascript.info/try-catch)
-
-<br>
 
 **HAPPY CODING!**
 

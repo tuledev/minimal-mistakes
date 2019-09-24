@@ -1,5 +1,5 @@
 ---
-title: "Short-polling with Swift"
+title: Short-polling with Swift
 categories:
   - iOS
   - Swift
@@ -9,31 +9,31 @@ tags:
   - Short Polling
 ---
 
+# 2019-03-27-short-polling-with-Swift
+
 Repeating tasks, e.g. fetching APIs, are tasks/block codes need to be excuted every interval time. I sometimes have to deal with them. And they sometimes become massive with a lot of timer and release timer things. So I decide to write a simple short-polling center in Swift. [Short-polling repo](https://github.com/tuledev/short-polling)
 
 What I need a polling center do
 
-- Excute a task every interval
-- Excute tasks in a single background queue
-- Easy to enable/disable a polling
-- Seperate each polling
+* Excute a task every interval
+* Excute tasks in a single background queue
+* Easy to enable/disable a polling
+* Seperate each polling
 
 What I will implement
- 
-- Protocol for polling item. So I can create my own polling item easily.
-  
-  - Have uid so I can manage them
-  - Can config time interval
-  - Have a handler for excuting
-- Polling center. For managing polling item.
-  
-  - Singleton object
-  - Have a queue for every tasks can excute in background queue
-  - Have a timer for each Pollingable item
-  - Enable/disable Pollingable item in a queue also
 
+* Protocol for polling item. So I can create my own polling item easily.
+  * Have uid so I can manage them
+  * Can config time interval
+  * Have a handler for excuting
+* Polling center. For managing polling item.
+  * Singleton object
+  * Have a queue for every tasks can excute in background queue
+  * Have a timer for each Pollingable item
+  * Enable/disable Pollingable item in a queue also
 
 ## 1. Protocol for Pollingable item
+
 ```swift
 protocol Pollingable {
   // default uid for polling
@@ -48,7 +48,7 @@ extension Pollingable where Self: NSObject {
   func uid() -> String {
     return String(describing: Self.self)
   }
-  
+
   static func uid() -> String {
     return String(describing: Self.self)
   }
@@ -57,24 +57,27 @@ extension Pollingable where Self: NSObject {
 
 ## 2. Polling Center
 
-#### Singleton center
+### Singleton center
+
 ```swift
   private static var sharedInstance: PollingCenter = {
     let pollingCenter = PollingCenter()
     return pollingCenter
   }()
-  
+
   static func shared() -> PollingCenter {
     return sharedInstance
   }
 ```
 
-#### Queue for timer
-``` Swift
+### Queue for timer
+
+```swift
   private let serialQueueChanging = DispatchQueue(label: "serialQueuePollingCenter")
 ```
 
-#### Timer for each Pollingable item
+### Timer for each Pollingable item
+
 ```swift
   private func createTimer(polling: Pollingable) -> DispatchSourceTimer {
     let queue = DispatchQueue.global(qos: .background)
@@ -89,7 +92,8 @@ extension Pollingable where Self: NSObject {
 
 I've almost done for creating center. Now I will add polling items and let them running in queue.
 
-#### Resume/Pause Pollingable items via polling uid
+### Resume/Pause Pollingable items via polling uid
+
 ```swift
   fileprivate func resumePolling(_ uid: String) {
     if let polling = self.pollings[uid], let state = self.pollingStates[uid] {
@@ -99,7 +103,7 @@ I've almost done for creating center. Now I will add polling items and let them 
       }
     }
   }
-  
+
   fileprivate func pausePolling(_ uid: String) {
     if let polling = self.pollings[uid], let state = self.pollingStates[uid] {
       if state == true {
@@ -112,8 +116,8 @@ I've almost done for creating center. Now I will add polling items and let them 
 
 I make them private because they have to be executed in a queue, so they won't be conflicted each others.
 
+### Add Pollingable item to Polling Center
 
-#### Add Pollingable item to Polling Center
 ```swift
   func addPolling(_ polling: Pollingable) {
     // check if uid is added
@@ -126,7 +130,8 @@ I make them private because they have to be executed in a queue, so they won't b
   }
 ```
 
-#### Enable/Disable Pollingable item
+### Enable/Disable Pollingable item
+
 ```swift
   func enablePolling(_ uid: String) {
     self.serialQueueChanging.sync {
@@ -152,3 +157,4 @@ pollingCenter.enablePolling(printPolling.uid()) // item's running now
 ```
 
 [Source code](https://github.com/tuledev/short-polling)
+
