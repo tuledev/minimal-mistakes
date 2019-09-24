@@ -12,7 +12,13 @@ tags:
 
 Telegram is the best messaging application I have ever used. In this post I want to focus on a feature that using bot to act as a real-time logger. All information about Telegram bots can be found [here](https://core.telegram.org/bots)
 
-How to get statuses of the running job or anything that you want to tracking? How to get notification when your system has a trouble?... Basically, Telegram provides an API to push message to Telegram chat. And we can use it to tracking what we want with 3 steps: 1. Create Telegram bot, and get bot token 2. Create Telegram group, and get chat ID 3. Send message to Telegram group
+How to get statuses of the running job or anything that you want to tracking? How to get notification when your system has a trouble?... Basically, Telegram provides an API to push message to Telegram chat. And we can use it to tracking what we want with 3 steps: 
+
+1. Create Telegram bot, and get bot token 
+
+2. Create Telegram group, and get chat ID 
+
+3. Send message to Telegram group
 
 ## Create Telegram bot, and get bot token
 
