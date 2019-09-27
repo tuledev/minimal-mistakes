@@ -14,6 +14,8 @@
   * [2019-03-27-short-polling-with-Swift](_posts/2019-03-27-short-polling-with-swift.md)
   * [2019-02-22-try-catch-exception-rather-than-return-codes](_posts/2019-02-22-try-catch-exception-rather-than-return-codes.md)
 * [\_docs](_docs/README.md)
+  * [Firebase](_docs/firebase/README.md)
+    * [Setup local firebase functions](_docs/firebase/setup-local-firebase-functions.md)
   * [Documentation](_docs/documentation/README.md)
     * [API Documentation](_docs/documentation/api-docs.md)
   * [React Native](_docs/react_native/README.md)
