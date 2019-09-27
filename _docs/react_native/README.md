@@ -1,2 +1,2 @@
-# react\_native
+# React Native
 
