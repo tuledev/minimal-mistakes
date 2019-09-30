@@ -15,6 +15,8 @@
   * [2019-02-22-try-catch-exception-rather-than-return-codes](_posts/2019-02-22-try-catch-exception-rather-than-return-codes.md)
   * [2019-09-29-api-docs](_posts/2019-09-29-api-docs.md)
 * [\_docs](_docs/README.md)
+  * [DevOps](_docs/devops/README.md)
+    * [Using NGINX for ReactJS](_docs/devops/using-nginx-for-reactjs.md)
   * [Firebase](_docs/firebase/README.md)
     * [Setup local firebase functions](_docs/firebase/setup-local-firebase-functions.md)
   * [Documentation](_docs/documentation/README.md)
