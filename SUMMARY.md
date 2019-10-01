@@ -15,6 +15,8 @@
   * [2019-02-22-try-catch-exception-rather-than-return-codes](_posts/2019-02-22-try-catch-exception-rather-than-return-codes.md)
   * [2019-09-29-api-docs](_posts/2019-09-29-api-docs.md)
 * [\_docs](_docs/README.md)
+  * [Service Registration](_docs/service-registration/README.md)
+    * [Apple Enterprise Developer Account](_docs/service-registration/apple-enterprise-developer-account.md)
   * [DevOps](_docs/devops/README.md)
     * [Using NGINX for ReactJS](_docs/devops/using-nginx-for-reactjs.md)
   * [Firebase](_docs/firebase/README.md)
