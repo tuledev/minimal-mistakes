@@ -1,8 +1,6 @@
----
-description: 'https://firebase.google.com/docs/database/admin/save-data'
----
-
 # Save Data with unique key
+
+{% embed url="https://firebase.google.com/docs/database/admin/save-data" %}
 
 ### Save data with unique key
 
