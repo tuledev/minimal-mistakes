@@ -4,7 +4,7 @@
 
 #### react-native: 0.59.5
 
-The solution is wrap children in `View`  with `flex:1`
+The solution is wrapping children in `View`  with `flex:1`
 
 ```text
 <View style={{ flexDirection: 'row' }}>
