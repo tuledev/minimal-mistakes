@@ -12,6 +12,7 @@
   * [Documentation](_docs/documentation/README.md)
     * [API Documentation](_docs/documentation/api-docs.md)
   * [React Native](_docs/react_native/README.md)
+    * [Facebook SDK](_docs/react_native/facebook-sdk.md)
     * [Screen Events](_docs/react_native/screen-events.md)
     * [Hotkeys](_docs/react_native/hotkeys.md)
     * [Deep Links](_docs/react_native/deep-links/README.md)
