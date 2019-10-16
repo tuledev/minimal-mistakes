@@ -2,6 +2,7 @@
 
 * [DOCS FOR THINGS](README.md)
 * [\_docs](_docs/README.md)
+  * [VS Code](_docs/vs-code.md)
   * [Service Registration](_docs/service-registration/README.md)
     * [Apple Enterprise Developer Account](_docs/service-registration/apple-enterprise-developer-account.md)
   * [DevOps](_docs/devops/README.md)
