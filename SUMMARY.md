@@ -23,7 +23,7 @@
     * [Deep Links](_docs/react_native/deep-links/README.md)
       * [iOS Deep Link: Universal Link vs URL Schemes‌](_docs/react_native/deep-links/ios-deep-link-universal-link-vs-url-schemes.md)
       * [Deferred Link‌](_docs/react_native/deep-links/deferred-link.md)
-    * [Bugs](_docs/react_native/text-going-off-screen-with-flexdirection-row.md)
+    * [Text going off screen with flexDirection: 'row'](_docs/react_native/text-going-off-screen-with-flexdirection-row.md)
 * [\_posts](_posts/README.md)
   * [2019-02-20-how-to-create-Jekyll-blog-with-github-page](_posts/2019-02-20-how-to-create-jekyll-blog-with-github-page.md)
   * [2019-03-01-books-02-19](_posts/2019-03-01-books-02-19.md)
