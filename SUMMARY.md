@@ -2,6 +2,8 @@
 
 * [DOCS FOR THINGS](README.md)
 * [\_docs](_docs/README.md)
+  * [Tips](_docs/tips/README.md)
+    * [Get more things done](_docs/tips/get-more-things-done.md)
   * [VS Code](_docs/vs-code/README.md)
     * [Theme customization](_docs/vs-code/theme-customization.md)
   * [Service Registration](_docs/service-registration/README.md)
