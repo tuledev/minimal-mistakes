@@ -4,8 +4,12 @@
 
 ## Get more things done with 2 steps
 
-1. Physically get the ass in work position
-2. Do one small thing
+
+
+* **Physically get the ass in work position**
+* **Do one small thing**
+
+
 
 > It’s simple, but it isn’t easy. **Oftentimes**, we **do everything** in our power to **avoid** that **first step**. We grab another cup of coffee, go for a walk, read a book, run errands. Before I wrote this piece, I meticulously rearranged my bookshelf. I tried to escape. The voice inside my head told me to turn on Netflix.
 >
