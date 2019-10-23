@@ -5,6 +5,7 @@
   * [Tips](_docs/tips/README.md)
     * [Get more things done](_docs/tips/get-more-things-done.md)
   * [VS Code](_docs/vs-code/README.md)
+    * [Setting.json](_docs/vs-code/setting.json.md)
     * [Theme customization](_docs/vs-code/theme-customization.md)
   * [Service Registration](_docs/service-registration/README.md)
     * [Apple Enterprise Developer Account](_docs/service-registration/apple-enterprise-developer-account.md)
