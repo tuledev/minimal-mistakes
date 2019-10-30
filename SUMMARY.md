@@ -3,6 +3,7 @@
 * [DOCS FOR THINGS](README.md)
 * [\_docs](_docs/README.md)
   * [Tips](_docs/tips/README.md)
+    * [Sleeping in the right way](_docs/tips/sleeping-in-the-right-way.md)
     * [Get more things done](_docs/tips/get-more-things-done.md)
   * [VS Code](_docs/vs-code/README.md)
     * [Intelligent doesn't auto complete  the JSX attribute or react-native components](_docs/vs-code/intelligent-doesnt-auto-complete-the-jsx-attribute-or-react-native-components.md)
