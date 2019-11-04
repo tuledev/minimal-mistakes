@@ -20,6 +20,7 @@
   * [Documentation](_docs/documentation/README.md)
     * [API Documentation](_docs/documentation/api-docs.md)
   * [React Native](_docs/react_native/README.md)
+    * [Rendering in React](_docs/react_native/rendering-in-react.md)
     * [View JS from apk](_docs/react_native/view-js-from-apk.md)
     * [Flatlist with large data list causes blank view](_docs/react_native/flatlist-with-large-data-list-causes-blank-view.md)
     * [Facebook SDK](_docs/react_native/facebook-sdk.md)
