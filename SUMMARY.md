@@ -4,6 +4,7 @@
 * [\_docs](_docs/README.md)
   * [Reading](_docs/reading.md)
   * [Tips](_docs/tips/README.md)
+    * [MVP](_docs/tips/mvp.md)
     * [Sleeping in the right way](_docs/tips/sleeping-in-the-right-way.md)
     * [Get more things done](_docs/tips/get-more-things-done.md)
   * [VS Code](_docs/vs-code/README.md)
