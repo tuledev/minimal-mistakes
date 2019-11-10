@@ -16,6 +16,7 @@
   * [DevOps](_docs/devops/README.md)
     * [Using NGINX for ReactJS](_docs/devops/using-nginx-for-reactjs.md)
   * [Firebase](_docs/firebase/README.md)
+    * [Save data](_docs/firebase/save-data.md)
     * [Save Data with unique key](_docs/firebase/save-data-with-unique-key.md)
     * [Setup local firebase functions](_docs/firebase/setup-local-firebase-functions.md)
   * [Documentation](_docs/documentation/README.md)
