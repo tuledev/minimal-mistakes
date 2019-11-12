@@ -2,6 +2,7 @@
 
 * [DOCS FOR THINGS](README.md)
 * [\_docs](_docs/README.md)
+  * [React](_docs/react.md)
   * [Reading](_docs/reading.md)
   * [Tips](_docs/tips/README.md)
     * [MVP](_docs/tips/mvp.md)
