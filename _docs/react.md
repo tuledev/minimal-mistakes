@@ -1,7 +1,7 @@
 # React
 
 [https://vasanthk.gitbooks.io/react-bits/patterns/25.presentational-vs-container.html](https://vasanthk.gitbooks.io/react-bits/patterns/25.presentational-vs-container.html)  
-Presentational just have props -&gt; func component  
+Presentational just have props -&gt; functional component/stateless component  
 Container pass state + props -&gt; Presentational
 
 [https://vasanthk.gitbooks.io/react-bits/patterns/27.passing-function-to-setState.html](https://vasanthk.gitbooks.io/react-bits/patterns/27.passing-function-to-setState.html)  
