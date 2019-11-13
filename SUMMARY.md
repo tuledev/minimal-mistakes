@@ -23,6 +23,7 @@
   * [Documentation](_docs/documentation/README.md)
     * [API Documentation](_docs/documentation/api-docs.md)
   * [React Native](_docs/react_native/README.md)
+    * [Tips](_docs/react_native/tips.md)
     * [Performance](_docs/react_native/performance.md)
     * [Patterns in React](_docs/react_native/patterns-in-react.md)
     * [Rendering in React](_docs/react_native/rendering-in-react.md)
