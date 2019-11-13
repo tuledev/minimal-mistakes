@@ -5,13 +5,41 @@
     "workbench.activityBar.visible": false,
     "editor.tabSize": 2,
     "editor.tokenColorCustomizations": {
-        "keywords": "#49b600dd",
+        "keywords": "#49b600",
         "strings": "#009991",
-        "variables": "#942192dd",
+        "variables": "#942192e8",
         "types": "#a60",
-        "functions": "#990000e0",
+        "functions": "#990000e8",
         "comments": "#333a",
         "textMateRules": [
+            {
+                "scope": [
+                    ""
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            },  
+            {
+                "scope": [
+                    "entity.name.function",
+                    "variable",
+                    "string.quoted",
+                    "constant.numeric",
+                ],
+                "settings": {
+                    "fontStyle": "" 
+                }
+            },  
+            {
+                "scope": [
+                    "variable.language"
+                ],
+                "settings": {
+                    "foreground": "#a60a",
+                    "fontStyle": "italic",
+                }
+            },  
             {
                 "scope": [
                     // "entity.name.class",
@@ -40,14 +68,6 @@
                     "fontStyle": "italic underline"
                 }
             },  
-            {
-                "scope": [
-                    "entity.name.function",
-                ],
-                "settings": {
-                    "fontStyle": "" 
-                }
-            },  
         ],
     },
     "workbench.colorCustomizations": {
@@ -66,11 +86,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.foldingStrategy": "indentation"
     },
-    "prettier.arrowParens": "always",
-    "prettier.printWidth": 100,
-    "zenMode.fullScreen": false,
-    "prettier.singleQuote": true,
-    "autoimport.showNotifications": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -87,7 +102,7 @@
     "workbench.statusBar.visible": true,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 0.5,
     "workbench.sideBar.location": "left",
     "peacock.favoriteColors": [
         {
@@ -146,20 +161,21 @@
     "peacock.surpriseMeFromFavoritesOnly": true,
     "peacock.surpriseMeOnStartup": true,
     "peacock.affectTabActiveBorder": true,
-    "peacock.affectAccentBorders": false,
+    "peacock.affectAccentBorders": true,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
-    "prettier.eslintIntegration": true,
     "editor.suggest.maxVisibleSuggestions": 15,
     
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
-    "emmet.showSuggestionsAsSnippets": true,
-    "emmet.optimizeStylesheetParsing": false,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "editor.autoClosingBrackets": "never",
     "typescript.format.enable": false,
     "typescript.check.npmIsInstalled": false,
     "typescript.autoClosingTags": false,
@@ -191,7 +207,7 @@
     "workbench.colorTheme": "Quiet Light",
     "debug.console.lineHeight": 10,
     "editor.suggestLineHeight": 16,
-    "editor.quickSuggestionsDelay": 500,
+    "editor.quickSuggestionsDelay": 200,
     "html.suggest.html5": false,
     "php.suggest.basic": false,
     "javascript.suggest.completeFunctionCalls": true,
@@ -199,43 +215,40 @@
 
     "commentBox.styles": {
         "defaultStyle": {
-            "commentStartToken": "/*  ",
-            "commentEndToken": " */",
-            "leftEdgeToken": " *  ",
+            "commentStartToken": "  // #region ",
+            "commentEndToken": "  ",
+            "leftEdgeToken": "",
             "rightEdgeToken": "",
             "topEdgeToken": "",
-            "bottomEdgeToken": " ",
+            "bottomEdgeToken": "",
             "topRightToken": "",
             "bottomLeftToken": "",
             "capitalize": false,
             "textAlignment": "left",
             "fillingToken": "",
-            "boxWidth": 80,
         }
     },
     "workbench.fontAliasing": "auto",
     "editor.fontLigatures": true,
-    "editor.cursorBlinking": "solid",
-    "editor.cursorStyle": "line-thin",
-    "[javascriptreact]": {
-    "editor.foldingStrategy": "indentation"
-    },
-    "[typescript]": {
-    "editor.foldingStrategy": "indentation"
-    },
-    "[typescriptreact]": {
-    "editor.foldingStrategy": "indentation"
-    },
     "editor.foldingStrategy": "indentation",
-    "editor.cursorSurroundingLines": 25,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.lineHeight": 15,
     "markdown.preview.fontFamily": "SomeType Mono, -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif",
-    "editor.fontSize": 11.25,
     "indentRainbow.updateDelay": 2000,
     "editor.highlightActiveIndentGuide": false,
-
+    "turboConsoleLog.addSemicolonInTheEnd": true,
+    "workbench.editor.centeredLayoutAutoResize": false,
+    "javascript.suggest.autoImports": false,
+    "search.location": "panel",
+    "window.newWindowDimensions": "inherit",
+    "scm.alwaysShowProviders": true,
+    "editor.lineHeight": 20,
+    "editor.matchBrackets": false,
+    "subtleBrackets.style": {
+        "borderColor": "#00f",
+        "borderWidth": "3px"
+    },
+    "editor.autoClosingOvertype": "never",
 }
 ```
 
