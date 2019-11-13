@@ -1,5 +1,7 @@
 # Setting.json
 
+
+
 ```text
 {
     "workbench.activityBar.visible": false,
@@ -7,39 +9,11 @@
     "editor.tokenColorCustomizations": {
         "keywords": "#49b600",
         "strings": "#009991",
-        "variables": "#942192e8",
+        "variables": "#a31fa3dd",
         "types": "#a60",
         "functions": "#990000e8",
         "comments": "#333a",
         "textMateRules": [
-            {
-                "scope": [
-                    ""
-                ],
-                "settings": {
-                    "fontStyle": "italic",
-                }
-            },  
-            {
-                "scope": [
-                    "entity.name.function",
-                    "variable",
-                    "string.quoted",
-                    "constant.numeric",
-                ],
-                "settings": {
-                    "fontStyle": "" 
-                }
-            },  
-            {
-                "scope": [
-                    "variable.language"
-                ],
-                "settings": {
-                    "foreground": "#a60a",
-                    "fontStyle": "italic",
-                }
-            },  
             {
                 "scope": [
                     // "entity.name.class",
@@ -72,10 +46,19 @@
     },
     "workbench.colorCustomizations": {
         "editor.background": "#fff",
-        "editor.selectionBackground": "#00ff0055",
+        "editor.selectionBackground": "#f003",
+        "editor.selectionHighlightBorder": "#00f8", // same context with selected 
         "editorWarning.foreground": "#00a0ff",
         "editorError.border": "#0080ff",
         "editorError.foreground": "#ff0000",
+        "editor.lineHighlightBackground": "#ff000032", // current line
+        // "editor.inactiveSelectionBackground": "#30303077", // search all
+        "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#00cc44a8", //Other SEARCH MATCHES
+        "editor.findMatchHighlightBorder": "#00cc44a8", //Other SEARCH MATCHES
+        "editor.rangeHighlightBackground": "#f003", // search symbol
+        // "editor.rangeHighlightBorder": "#f003", // search symbol
+        "editorSuggestWidget.selectedBackground": "#f005" // suggestion selected 
     },
     "vim.foldfix": true,
     "editor.fontWeight": "700",
