@@ -7,7 +7,7 @@
     "workbench.activityBar.visible": false,
     "editor.tabSize": 2,
     "editor.tokenColorCustomizations": {
-        "keywords": "#49b600",
+        "keywords": "#21bb03de",
         "strings": "#009991",
         "variables": "#a31fa3dd",
         "types": "#a60",
@@ -36,28 +36,149 @@
                     // "variable.other",
                     // "variable.other.readwrite",
                     // "variable.parameter"
-
                 ],
                 "settings": {
-                    "fontStyle": "italic underline"
+                    "fontStyle": "italic underline",
+                    "foreground": "#a60"
+                }
+            },  
+            {
+                "scope": [
+                    "keyword.control",
+                    "storage.type",
+                    "storage.modifier.async.js",
+                    "storage.modifier.await.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            },  
+            {
+                "scope": [
+                    "meta.tag entity.other.attribute-name",
+                    "variable.language.this.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#a60c"
+                }
+            },  
+            {
+                "scope": [
+                    "meta.object-literal.key.js",
+                    "meta.objectliteral.js punctuation.definition.block.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#a31fa3cc",
+                }
+            },  
+            {
+                "scope": [
+                    "punctuation"
+                ],
+                "settings": {
+                    "fontStyle": "",
+                }
+            },  
+            {
+                "scope": [
+                    "meta.brace.round.js"
+                ],
+                "settings": {
+                    "foreground": "#777777ff",
+                }
+            },  
+            {
+                "scope": [
+                    "punctuation.definition.block.js",
+                    "storage.type.function.arrow.js",
+                ],
+                "settings": {
+                    "foreground": "#777777ff",
+                }
+            },  
+            {
+                "scope": [
+                    "variable.language.this.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#9c5d27ff"
+                }
+            },  
+            {
+                "scope": [
+                    "constant.language.undefined.js",
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#009991ff"
+                }
+            },  
+            {
+                "scope": [
+                    "comment"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#33333388"
+                }
+            },  
+            {
+                "scope": [
+                    "keyword.operator.expression.instanceof.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            },  
+            {
+                "scope": [
+                    "entity.other.inherited-class"
+                ],
+                "settings": {
+                    "foreground": "#a60a",
+                }
+            },  
+            {
+                "scope": [
+                    "meta.import.js string.quoted.single.js",
+                    "entity.name.import.go"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            },  
+            {
+                "scope": [
+                    "meta.definition.variable.js",
+                    "variable.parameter.js"
+                ],
+                "settings": {
+                    "fontStyle": "underline",
                 }
             },  
         ],
     },
     "workbench.colorCustomizations": {
         "editor.background": "#fff",
-        "editor.selectionBackground": "#f003",
-        "editor.selectionHighlightBorder": "#00f8", // same context with selected 
+        "editor.selectionBackground": "#00f5",
+        "editorUnnecessaryCode.border": "#0f0",
+        "editor.selectionHighlightBackground": "#00f3",
+        "editor.selectionHighlightBorder": "#00f7", // same context with selected 
+        "editor.wordHighlightBorder": "#00f7",
+        "editor.wordHighlightBackground": "#00f3",
         "editorWarning.foreground": "#00a0ff",
         "editorError.border": "#0080ff",
         "editorError.foreground": "#ff0000",
         "editor.lineHighlightBackground": "#ff000032", // current line
         // "editor.inactiveSelectionBackground": "#30303077", // search all
         "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+        "editor.findMatchBorder": "#00cc44a8", //Current SEARCH MATCH
         "editor.findMatchHighlightBackground": "#00cc44a8", //Other SEARCH MATCHES
-        "editor.findMatchHighlightBorder": "#00cc44a8", //Other SEARCH MATCHES
         "editor.rangeHighlightBackground": "#f003", // search symbol
-        // "editor.rangeHighlightBorder": "#f003", // search symbol
+        "editor.rangeHighlightBorder": "#f003", // search symbol
         "editorSuggestWidget.selectedBackground": "#f005" // suggestion selected 
     },
     "vim.foldfix": true,
@@ -158,7 +279,6 @@
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.autoClosingBrackets": "never",
     "typescript.format.enable": false,
     "typescript.check.npmIsInstalled": false,
     "typescript.autoClosingTags": false,
@@ -228,10 +348,9 @@
     "editor.lineHeight": 20,
     "editor.matchBrackets": false,
     "subtleBrackets.style": {
-        "borderColor": "#00f",
+        "borderColor": "#f0fb",
         "borderWidth": "3px"
     },
-    "editor.autoClosingOvertype": "never",
 }
 ```
 
