@@ -10,8 +10,8 @@
         "keywords": "#21bb03de",
         "strings": "#009991",
         "variables": "#a31fa3dd",
-        "types": "#a60",
-        "functions": "#990000e8",
+        "types": "#c97800",
+        "functions": "#990000dd",
         "comments": "#333a",
         "textMateRules": [
             {
@@ -38,8 +38,8 @@
                     // "variable.parameter"
                 ],
                 "settings": {
-                    "fontStyle": "italic underline",
-                    "foreground": "#a60"
+                    "fontStyle": "underline italic",
+                    "foreground": "#9b5d00"
                 }
             },  
             {
@@ -56,21 +56,20 @@
             {
                 "scope": [
                     "meta.tag entity.other.attribute-name",
-                    "variable.language.this.js"
                 ],
                 "settings": {
                     "fontStyle": "italic",
-                    "foreground": "#a60c"
+                    "foreground": "#996300d5",
                 }
             },  
             {
                 "scope": [
                     "meta.object-literal.key.js",
-                    "meta.objectliteral.js punctuation.definition.block.js"
+                    "meta.objectliteral.js punctuation.definition.block.js",
                 ],
                 "settings": {
-                    "fontStyle": "italic",
-                    "foreground": "#a31fa3cc",
+                    // "fontStyle": "italic",
+                    "foreground": "#0a018dda",
                 }
             },  
             {
@@ -83,7 +82,9 @@
             },  
             {
                 "scope": [
-                    "meta.brace.round.js"
+                    "meta.brace.round.js",
+                    "punctuation.section.embedded.begin.js",
+                    "punctuation.section.embedded.end.js",
                 ],
                 "settings": {
                     "foreground": "#777777ff",
@@ -92,7 +93,6 @@
             {
                 "scope": [
                     "punctuation.definition.block.js",
-                    "storage.type.function.arrow.js",
                 ],
                 "settings": {
                     "foreground": "#777777ff",
@@ -104,7 +104,7 @@
                 ],
                 "settings": {
                     "fontStyle": "italic",
-                    "foreground": "#9c5d27ff"
+                    "foreground": "#996300d5"
                 }
             },  
             {
@@ -135,10 +135,11 @@
             },  
             {
                 "scope": [
+                    "entity.name.type",
                     "entity.other.inherited-class"
                 ],
                 "settings": {
-                    "foreground": "#a60a",
+                    "foreground": "#9b5d00",
                 }
             },  
             {
@@ -153,10 +154,31 @@
             {
                 "scope": [
                     "meta.definition.variable.js",
-                    "variable.parameter.js"
+                    "variable.parameter.js",
+                    "variable.other.constant.js meta.definition.variable.js"
                 ],
                 "settings": {
                     "fontStyle": "underline",
+                    // "foreground": "#ff01aa",
+                }
+            },  
+            {
+                "scope": [
+                    "support.class.builtin.js",
+                ],
+                "settings": {
+                    "fontStyle": "",
+                }
+            },  
+            {
+                "scope": [
+                    "storage.type.function.arrow.js",
+                    "punctuation.definition.block.js",
+                    "meta.arrow.js punctuation.definition.parameters.begin.js",
+                    "meta.arrow.js punctuation.definition.parameters.end.js",
+                ],
+                "settings": {
+                    "foreground": "#21bb03de",
                 }
             },  
         ],
@@ -178,7 +200,7 @@
         "editor.findMatchBorder": "#00cc44a8", //Current SEARCH MATCH
         "editor.findMatchHighlightBackground": "#00cc44a8", //Other SEARCH MATCHES
         "editor.rangeHighlightBackground": "#f003", // search symbol
-        "editor.rangeHighlightBorder": "#f003", // search symbol
+        // "editor.rangeHighlightBorder": "#f003", // search symbol
         "editorSuggestWidget.selectedBackground": "#f005" // suggestion selected 
     },
     "vim.foldfix": true,
