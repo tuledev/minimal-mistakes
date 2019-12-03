@@ -19,3 +19,8 @@ Don't mutating state without setState. Whenever setState gets called in the futu
 [https://vasanthk.gitbooks.io/react-bits/anti-patterns/06.using-indexes-as-key.html](https://vasanthk.gitbooks.io/react-bits/anti-patterns/06.using-indexes-as-key.html)  
 Don't use index as key
 
+
+
+Using `batch` for multi action to reduce re-render  
+[https://react-redux.js.org/api/batch](https://react-redux.js.org/api/batch)
+
