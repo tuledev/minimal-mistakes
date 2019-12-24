@@ -2,6 +2,7 @@
 
 * [DOCS FOR THINGS](README.md)
 * [\_docs](_docs/README.md)
+  * [Go](_docs/go.md)
   * [Server](_docs/server/README.md)
     * [Easy way to setup a local HTTP Server on macOS](_docs/server/easy-way-to-setup-a-local-http-server-on-macos.md)
   * [React](_docs/react.md)
