@@ -58,8 +58,8 @@
                     "meta.tag entity.other.attribute-name",
                 ],
                 "settings": {
-                    "fontStyle": "italic",
-                    "foreground": "#996300d5",
+                    // "fontStyle": "italic",
+                    "foreground": "#777777ff",
                 }
             },  
             {
@@ -68,8 +68,17 @@
                     "meta.objectliteral.js punctuation.definition.block.js",
                 ],
                 "settings": {
-                    // "fontStyle": "italic",
-                    "foreground": "#0a018dda",
+                    "fontStyle": "italic",
+                    "foreground": "#1100ffbe",
+                }
+            },  
+            {
+                "scope": [
+                    "meta.objectliteral.js punctuation.definition.block.js",
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#1100ffbe",
                 }
             },  
             {
@@ -104,7 +113,7 @@
                 ],
                 "settings": {
                     "fontStyle": "italic",
-                    "foreground": "#996300d5"
+                    "foreground": "#996300b5"
                 }
             },  
             {
@@ -174,10 +183,12 @@
                 "scope": [
                     "storage.type.function.arrow.js",
                     "punctuation.definition.block.js",
+                    "meta.objectliteral.js meta.arrow.js punctuation.definition.block.js",
                     "meta.arrow.js punctuation.definition.parameters.begin.js",
                     "meta.arrow.js punctuation.definition.parameters.end.js",
                 ],
                 "settings": {
+                    "fontStyle": "italic",
                     "foreground": "#21bb03de",
                 }
             },  
@@ -228,7 +239,7 @@
     "workbench.statusBar.visible": true,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 0,
     "workbench.sideBar.location": "left",
     "peacock.favoriteColors": [
         {
@@ -340,17 +351,18 @@
 
     "commentBox.styles": {
         "defaultStyle": {
-            "commentStartToken": "  // #region ",
+            "commentStartToken": "  // ",
             "commentEndToken": "  ",
-            "leftEdgeToken": "",
+            "leftEdgeToken": "  // #region ",
             "rightEdgeToken": "",
-            "topEdgeToken": "",
+            "topEdgeToken": " -",
             "bottomEdgeToken": "",
             "topRightToken": "",
             "bottomLeftToken": "",
             "capitalize": false,
             "textAlignment": "left",
             "fillingToken": "",
+            "boxWidth": 80,
         }
     },
     "workbench.fontAliasing": "auto",
@@ -373,6 +385,18 @@
         "borderColor": "#f0fb",
         "borderWidth": "3px"
     },
+    "importCost.timeout": 1000000,
+    "editor.fontSize": 11.75,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "vim.autoindent": false,
+    "editor.renderIndentGuides": false,
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": false
+        }
+      }
 }
 ```
 
