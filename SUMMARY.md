@@ -2,6 +2,7 @@
 
 * [DOCS FOR THINGS](README.md)
 * [\_docs](_docs/README.md)
+  * [Visualization](_docs/visualization.md)
   * [MacOS](_docs/macos.md)
   * [Go](_docs/go.md)
   * [Server](_docs/server/README.md)
