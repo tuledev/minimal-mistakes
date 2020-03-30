@@ -3,7 +3,7 @@
 * [DOCS FOR THINGS](README.md)
 * [\_docs](_docs/README.md)
   * [Specific things](_docs/specific-things/README.md)
-    * [Text recognization](_docs/specific-things/text-recognization.md)
+    * [Text recognition](_docs/specific-things/text-recognization.md)
   * [Book reviews](_docs/book-reviews/README.md)
     * [April 2020](_docs/book-reviews/april-2020.md)
     * [1-2/2020](_docs/book-reviews/1-2-2020.md)

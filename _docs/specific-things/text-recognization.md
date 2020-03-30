@@ -1,2 +1,2 @@
-# Text recognization
+# Text recognition
 
