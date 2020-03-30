@@ -1,10 +1,12 @@
-# March 2019
+# March 2020
 
 ## Rework
 
-## ShapeUp
 
-## Homo Deus: A Brief History of Tomorrow
+
+## It doesn't have to be at work
+
+## ShapeUp
 
 
 

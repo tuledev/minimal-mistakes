@@ -2,9 +2,12 @@
 
 * [DOCS FOR THINGS](README.md)
 * [\_docs](_docs/README.md)
+  * [Specific things](_docs/specific-things/README.md)
+    * [Text recognization](_docs/specific-things/text-recognization.md)
   * [Book reviews](_docs/book-reviews/README.md)
+    * [April 2020](_docs/book-reviews/april-2020.md)
     * [1-2/2020](_docs/book-reviews/1-2-2020.md)
-    * [March 2019](_docs/book-reviews/march-2019.md)
+    * [March 2020](_docs/book-reviews/march-2019.md)
   * [Visualization](_docs/visualization.md)
   * [MacOS](_docs/macos.md)
   * [Go](_docs/go.md)
