@@ -2,6 +2,7 @@
 
 * [DOCS FOR THINGS](README.md)
 * [\_docs](_docs/README.md)
+  * [Webpack](_docs/webpack.md)
   * [Specific things](_docs/specific-things/README.md)
     * [Text recognition](_docs/specific-things/text-recognization.md)
   * [Book reviews](_docs/book-reviews/README.md)
