@@ -22,5 +22,6 @@ Flatlist with
 
 I use `ScrollView` now. It's scrolling well in low device
 
-
+  
+[https://medium.com/discord-engineering/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502](https://medium.com/discord-engineering/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502)
 
