@@ -8,9 +8,11 @@ I have to re-add if every time I clean the project and remove node\_modules fold
 
 
 
-
-
 {% embed url="https://medium.com/discord-engineering/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502" %}
+
+
+
+{% embed url="https://github.com/software-mansion/react-native-gesture-handler/issues/816" %}
 
 
 
