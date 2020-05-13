@@ -1,12 +1,12 @@
 # Detect APIs call from trusty mobile app
 
-## Context
+## I. Context
 
 We're providing services which fee base on request numbers. The services run on web, iOS,  and Android platforms. 
 
 We need to sercue the system to proect customer. Preventing attackers use the hacked infomation to overuse our services.
 
-## Issues
+## II. Issues
 
 The issues come from mobile platforms:
 
@@ -14,7 +14,7 @@ The issues come from mobile platforms:
 * Leak secret\_key/APIs key on mobile -&gt; attackers can use it for other services. For example: using for web services
 * Don't know requests come from trusty apps or not
 
-## Wrap Solutions
+## III. Wrap Solutions
 
 ### Separate Android/iOS and web APIs
 
