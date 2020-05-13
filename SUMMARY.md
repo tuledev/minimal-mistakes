@@ -4,6 +4,7 @@
 * [\_ref](_ref/README.md)
   * [React Native](_ref/react-native.md)
 * [\_docs](_docs/README.md)
+  * [Detect APIs call from trusty mobile app](_docs/detect-apis-call-from-trusty-mobile-app.md)
   * [Webpack](_docs/webpack.md)
   * [Specific things](_docs/specific-things/README.md)
     * [Text recognition](_docs/specific-things/text-recognization.md)
