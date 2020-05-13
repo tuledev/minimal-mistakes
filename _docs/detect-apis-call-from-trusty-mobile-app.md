@@ -12,7 +12,7 @@ The issues come from mobile platforms:
 
 * Can't restrict by domain or while list IP -&gt; attackers can capture and simulate requests 
 * Leak secret\_key/APIs key on mobile -&gt; attackers can use it for other services. For example: using for web services
-* Don't know requests come from truth apps or not
+* Don't know requests come from trusty apps or not
 
 ## Wrap Solutions
 
