@@ -25,3 +25,9 @@ Build 3 APIs flows so attackers can't use hacked from a platform to another plat
 * Android: add package name and SHA-1 signing-certificate fingerprint to restrict usage to  Android app.
 * iOS: accept requests from the iOS app with the bundle identifier that supply
 
+### Using JWT as short-live token
+
+Using JWT with cryptography signature created from app for request
+
+The signature cryptography algorithm is created from .so in Android, and .framework in iOS to prevent reverse engineering
+
