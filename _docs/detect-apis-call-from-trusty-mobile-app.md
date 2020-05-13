@@ -14,7 +14,7 @@ The issues come from mobile platforms:
 * Leak secret\_key/APIs key on mobile -&gt; attackers can use it for other services. For example: using for web services
 * Don't know requests come from truth apps or not
 
-## Solutions
+## Wrap Solutions
 
 ### Separate Android/iOS and web APIs
 
