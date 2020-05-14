@@ -31,3 +31,7 @@ Using JWT with cryptography signature created from app for request
 
 The signature cryptography algorithm is created from .so in Android, and .framework in iOS to prevent reverse engineering
 
+### System
+
+* Limit APIs request rate by IP
+* 
