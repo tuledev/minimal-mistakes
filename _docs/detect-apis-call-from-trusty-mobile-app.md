@@ -14,6 +14,11 @@ What attacker can:
 * Abuse sms api to phone -&gt; annoy users
 * Use the service key for attacker's service -&gt; customer can lost money
 
+Why 
+
+* Attackers want to attack customers
+* Attackers want to attack us.
+
 The issues come from mobile platforms:
 
 * Can't restrict by domain or while list IP -&gt; attackers can capture and simulate requests 
