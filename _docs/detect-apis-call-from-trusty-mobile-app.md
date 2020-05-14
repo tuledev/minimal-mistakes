@@ -2,9 +2,9 @@
 
 ## I. Context
 
-We're providing services which fee base on request numbers. The services run on web, iOS,  and Android platforms. 
+In this post, I will just mention to abusing issues 
 
-We need to sercue the system to proect customer. Preventing attackers use the hacked infomation to overuse our services.
+We're providing services which fee base on request numbers. The services run on web, iOS,  and Android platforms.
 
 ## II. Issues
 
