@@ -59,5 +59,16 @@ Using JWT with cryptography signature created from app for request
 
 
 
+## Conclusion
 
+In mobile app can do
+
+#### Layer 1
+
+* Using JWT from file config
+* Using JWT from customer's server 
+
+#### Layer 2
+
+* Prebuild JWT in mobile to c++ lib
 
