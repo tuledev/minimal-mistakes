@@ -35,3 +35,7 @@ The signature cryptography algorithm is created from .so in Android, and .framew
 
 * Limit APIs request rate by IP
 * 
+  
+  
+[https://www.twilio.com/docs/verify/developer-best-practices](https://www.twilio.com/docs/verify/developer-best-practices)
+
