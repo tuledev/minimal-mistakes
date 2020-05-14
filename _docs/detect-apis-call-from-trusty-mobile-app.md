@@ -32,8 +32,15 @@ The issues come from platforms:
 
 Build 3 APIs flows so attackers can't use hacked from a platform to another platform, especially from mobile to web 
 
-### Restrict usage on Android and iOS app
+### System
 
+* Limit APIs request rate by IP
+* Prevent by country IP
+* Alert  
+
+### Restrict usage on Web, Android and iOS app
+
+* Web: limit by domain
 * Android: add package name and SHA-1signing-certificate fingerprint/app ID to restrict usage to  Android app.
 * iOS: accept requests from the iOS app with the bundle identifier that supply
 
@@ -44,11 +51,7 @@ Using JWT with cryptography signature created from app for request
 * The signature cryptography algorithm is created from .so in Android, and .framework in iOS to prevent reverse engineering
 * The signature can be gen in the customer's backend
 
-### System
-
-* Limit APIs request rate by IP
-* Prevent by country IP
-* Alert  
+### 
 
 
 
