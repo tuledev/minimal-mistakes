@@ -8,6 +8,12 @@ We need to sercue the system to proect customer. Preventing attackers use the ha
 
 ## II. Issues
 
+What attacker can:
+
+* Abuse sms api to many phone -&gt; customer can lost money
+* Abuse sms api to phone -&gt; annoy users
+* Use the service key for attacker's service -&gt; customer can lost money
+
 The issues come from mobile platforms:
 
 * Can't restrict by domain or while list IP -&gt; attackers can capture and simulate requests 
@@ -29,13 +35,20 @@ Build 3 APIs flows so attackers can't use hacked from a platform to another plat
 
 Using JWT with cryptography signature created from app for request
 
-The signature cryptography algorithm is created from .so in Android, and .framework in iOS to prevent reverse engineering
+* The signature cryptography algorithm is created from .so in Android, and .framework in iOS to prevent reverse engineering
+* The signature can be gen in the customer's backend
+
+
 
 ### System
 
 * Limit APIs request rate by IP
 * 
-  
-  
-[https://www.twilio.com/docs/verify/developer-best-practices](https://www.twilio.com/docs/verify/developer-best-practices)
+{% embed url="https://www.twilio.com/docs/verify/developer-best-practices" %}
+
+{% embed url="https://www.twilio.com/docs/verify/api/programmable-rate-limits" %}
+
+
+
+
 
