@@ -48,10 +48,14 @@ Using JWT with cryptography signature created from app for request
 ### System
 
 * Limit APIs request rate by IP
+* Prevent by country ip
+* Alert customer 
 * 
 {% embed url="https://www.twilio.com/docs/verify/developer-best-practices" %}
 
 {% embed url="https://www.twilio.com/docs/verify/api/programmable-rate-limits" %}
+
+{% embed url="https://www.twilio.com/docs/usage/anti-fraud-developer-guide" %}
 
 
 
