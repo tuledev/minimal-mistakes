@@ -1,4 +1,4 @@
-# Detect APIs call from trusty mobile app
+# APIs abuse issues
 
 ## I. Context
 
@@ -19,9 +19,10 @@ Why
 * Attackers want to attack customers
 * Attackers want to attack us.
 
-The issues come from mobile platforms:
+The issues come from platforms:
 
-* Can't restrict by domain or while list IP -&gt; attackers can capture and simulate requests 
+* Easy to catching the request and keys on browsers -&gt; attackers can capture and simulate requests 
+* Can't restrict by domain or while list IP on mobiles -&gt; attackers can capture and simulate requests 
 * Leak secret\_key/APIs key on mobile -&gt; attackers can use it for other services. For example: using for web services
 * Don't know requests come from trusty apps or not
 
@@ -33,7 +34,7 @@ Build 3 APIs flows so attackers can't use hacked from a platform to another plat
 
 ### Restrict usage on Android and iOS app
 
-* Android: add package name and SHA-1 signing-certificate fingerprint to restrict usage to  Android app.
+* Android: add package name and SHA-1signing-certificate fingerprint/app ID to restrict usage to  Android app.
 * iOS: accept requests from the iOS app with the bundle identifier that supply
 
 ### Using JWT as short-live token
@@ -43,14 +44,14 @@ Using JWT with cryptography signature created from app for request
 * The signature cryptography algorithm is created from .so in Android, and .framework in iOS to prevent reverse engineering
 * The signature can be gen in the customer's backend
 
-
-
 ### System
 
 * Limit APIs request rate by IP
-* Prevent by country ip
-* Alert customer 
-* 
+* Prevent by country IP
+* Alert  
+
+
+
 {% embed url="https://www.twilio.com/docs/verify/developer-best-practices" %}
 
 {% embed url="https://www.twilio.com/docs/verify/api/programmable-rate-limits" %}
@@ -66,7 +67,7 @@ In mobile app can do
 #### Layer 1
 
 * Using JWT from file config
-* Using JWT from customer's server 
+* Restrict by App ID 
 
 #### Layer 2
 
