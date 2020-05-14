@@ -30,7 +30,7 @@ The issues come from platforms:
 
 ### Separate Android/iOS and web APIs
 
-Build 3 APIs flows so attackers can't use hacked from a platform to another platform, especially from mobile to web 
+Build 3 APIs flows so attackers can't use hacked from a platform to another platform, especially from mobile to web
 
 ### System
 
@@ -41,7 +41,7 @@ Build 3 APIs flows so attackers can't use hacked from a platform to another plat
 ### Restrict usage on Web, Android and iOS app
 
 * Web: limit by domain
-* Android: add package name and SHA-1signing-certificate fingerprint/app ID to restrict usage to  Android app.
+* Android: add package name and SHA-1signing-certificate fingerprint/app ID to restrict usage to Android app
 * iOS: accept requests from the iOS app with the bundle identifier that supply
 
 ### Using JWT as short-live token
