@@ -14,6 +14,7 @@ Attacker can get the key and spam/abuse services -&gt; customer can be highly ch
 
 * Rate limit by IP
 * Rate limit by user data
+* Limit by country IP
 
 ### Flow: Customer's frontend -&gt; Customer's backend -&gt; Customer's frontend -&gt; provider's backend
 
