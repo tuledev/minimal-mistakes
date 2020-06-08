@@ -4,6 +4,7 @@
 * [\_ref](_ref/README.md)
   * [React Native](_ref/react-native.md)
 * [\_docs](_docs/README.md)
+  * [Cryptography](_docs/cryptography.md)
   * [Store APIs Key in FrontEnd SDK issues](_docs/store-apis-key-in-frontend-sdk-issues.md)
   * [APIs abuse issues](_docs/detect-apis-call-from-trusty-mobile-app.md)
   * [Webpack](_docs/webpack.md)
