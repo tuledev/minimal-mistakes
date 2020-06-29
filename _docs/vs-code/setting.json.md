@@ -214,8 +214,9 @@
         // "editor.rangeHighlightBorder": "#f003", // search symbol
         "editorSuggestWidget.selectedBackground": "#f005" // suggestion selected 
     },
+    "vim.foldfix": true,
     "editor.fontWeight": "700",
-    "editor.fontFamily": "SF Pro Rounded, Source Code Pro,Input Mono, 'Courier New', monospacez",
+    "editor.fontFamily": "Source Code Pro,Input Mono, 'Courier New', monospacez",
     "jake.autoDetect": "off",
     "editor.suggestSelection": "first",
     "[javascript]": {
@@ -238,7 +239,7 @@
     "workbench.statusBar.visible": true,
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "workbench.sideBar.location": "left",
     "peacock.favoriteColors": [
         {
@@ -375,16 +376,17 @@
     "turboConsoleLog.addSemicolonInTheEnd": true,
     "workbench.editor.centeredLayoutAutoResize": false,
     "javascript.suggest.autoImports": false,
+    "search.location": "panel",
     "window.newWindowDimensions": "inherit",
     "scm.alwaysShowProviders": true,
-    "editor.lineHeight": 22,
+    "editor.lineHeight": 20,
     "editor.matchBrackets": false,
     "subtleBrackets.style": {
         "borderColor": "#f0fb",
         "borderWidth": "3px"
     },
     "importCost.timeout": 1000000,
-    "editor.fontSize": 11.25,
+    "editor.fontSize": 11.75,
     "typescript.disableAutomaticTypeAcquisition": true,
     "vim.autoindent": false,
     "editor.renderIndentGuides": false,
@@ -394,15 +396,7 @@
         "editor.codeActionsOnSave": {
           "source.organizeImports": false
         }
-    },
-    "prettier.singleQuote": true,
-    "timeline.showView": true,
-    "vim.mouseSelectionGoesIntoVisualMode": false,
-    "vim.surround": false,
-    "javascript.validate.enable": false,
-    "vim.foldfix": true,
-    "extensions.autoUpdate": false,
-    "emmet.showSuggestionsAsSnippets": true,
+      }
 }
 ```
 

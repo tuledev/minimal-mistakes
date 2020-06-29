@@ -2,6 +2,7 @@
 
 * [DOCS FOR THINGS](README.md)
 * [\_ref](_ref/README.md)
+  * [Working Memory](_ref/working-memory.md)
   * [NASA’s 10 rules for writing mission-critical code](_ref/nasas-10-rules-for-writing-mission-critical-code.md)
   * [React Native](_ref/react-native.md)
 * [\_docs](_docs/README.md)
