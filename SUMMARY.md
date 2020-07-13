@@ -56,6 +56,7 @@
       * [Deferred Link‌](_docs/react_native/deep-links/deferred-link.md)
     * [Text going off screen with flexDirection: 'row'](_docs/react_native/text-going-off-screen-with-flexdirection-row.md)
 * [\_posts](_posts/README.md)
+  * [2020-07-13-How-to-Understand-things](_posts/2020-07-13-how-to-understand-things.md)
   * [2019-02-20-how-to-create-Jekyll-blog-with-github-page](_posts/2019-02-20-how-to-create-jekyll-blog-with-github-page.md)
   * [2019-03-01-books-02-19](_posts/2019-03-01-books-02-19.md)
   * [2019-02-11-highlight-the-pragmatic-programmer-part-01](_posts/2019-02-11-highlight-the-pragmatic-programmer-part-01.md)
