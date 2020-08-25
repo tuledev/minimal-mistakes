@@ -14,5 +14,16 @@ I have to re-add if every time I clean the project and remove node\_modules fold
 
 {% embed url="https://github.com/software-mansion/react-native-gesture-handler/issues/816" %}
 
+  
+
+
+
+
+{% embed url="https://eladnava.com/publish-a-universal-binary-ios-framework-in-swift-using-cocoapods/" %}
+
+
+
+{% embed url="https://gist.github.com/eladnava/0824d08da8f99419ef2c7b7fb6d4cc78" %}
+
 
 
